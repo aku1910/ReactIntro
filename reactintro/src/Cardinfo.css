@@ -1,0 +1,29 @@
+*{
+margin:0 auto
+}
+.card{
+    background: linear-gradient(to right, #FFA500, #808080);    
+    padding-bottom: 100px;
+    padding-top: 100px;
+    width: 600px;
+    border: 6px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.image{
+width: 400px;
+height: 250px;
+background-size: cover;
+background-image: url(https://w0.peakpx.com/wallpaper/71/80/HD-wallpaper-andrew-tate-s-bugatti-chiron-pur-sport-r-forza.jpg);
+}
+
+.title h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+.price span{
+    font-size: 25px;
+    font-weight: 700;
+}
